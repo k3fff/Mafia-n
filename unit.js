@@ -1,4 +1,4 @@
-const factorialmaf = require('./factorial');
+const factorial = require('./factorial');
 const assert = require('assert');
 
 
@@ -13,4 +13,4 @@ function unitmaf(description, actual, expected) {
   } 
 }
 
-unitmaf('Факторіал 11 має бути 50', factorialmaf(11), 36284348);
+unitmaf('Факторіал 11 має бути 50', factorial(11), 36284348);
