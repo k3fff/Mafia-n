@@ -1,5 +1,5 @@
 const assert = require('assert');
-const factorialmaf = require('./factorial');
+const factorial = require('./factorial');
 
 function unitmaf(description, actual, expected) {
   try {
