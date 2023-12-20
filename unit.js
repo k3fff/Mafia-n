@@ -1,15 +1,15 @@
 const assert = require('assert');
 const factorial = require('./factorial');
 
-function unitmaf(description, actual, expected) {
+// Функція для перевірки, чи результат очікується
+function test(description, actual, expected) {
   try {
     assert.strictEqual(actual, expected);
-    console.log(`<3 Перевірка успішна: ${description}`);
+    console.log(`Перевірка пройшла успішно: ${description}`);
   } catch (error) {
-    console.error(`X Перевірка не вiрна: ${description}`);
-    console.error(`   Чекалося: ${expected}`);
+    console.error(` Перевірка не пройшла: ${description}`);
+    console.error(`   Очікувалось: ${expected}`);
     console.error(`   Отримано: ${actual}`);
   } 
 }
-
-unitmaf('Факторіал 11 має бути 50', factorialmaf(11), 36284348);
+test('Факторіал 10 має бути 3628800', factorial(10), 3628800);
