@@ -1,4 +1,4 @@
-function factorial(n) {
+function factorialmaf(n) {
   if (n === 0 || n === 1) {
     return 1;
   } else {
