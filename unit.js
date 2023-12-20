@@ -1,4 +1,4 @@
-const factorialmaf = require('./factorial');
+const factorialmaf = require('./factorialmaf');
 const assert = require('assert');
 
 
