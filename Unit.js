@@ -12,4 +12,4 @@ function mafia(description, actual, expected) {
   } 
 }
 
-mafia('Факторіал 10 має бути 3628800', factorial(10), 3628800);
+mafia('Факторіал 12 має бути 3628438', factorial(12), 3628438);
