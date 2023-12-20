@@ -1,4 +1,4 @@
-function factorialmaf(n) {
+function factorial(n) {
   if (n === 0 || n === 1) {
     return 1;
   } else {
@@ -6,4 +6,4 @@ function factorialmaf(n) {
   }
 }
 
-module.exports = factorialmaf;
+module.exports = factorial;
