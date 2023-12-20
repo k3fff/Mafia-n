@@ -1,7 +1,7 @@
-const assert = require('assert');
 const factorial = require('./factorial');
+const assert = require('assert');
 
-function test(description, actual, expected) {
+function mafia(description, actual, expected) {
   try {
     assert.strictEqual(actual, expected);
     console.log(`<3 Перевірка пройшла успішно: ${description}`);
@@ -12,4 +12,4 @@ function test(description, actual, expected) {
   } 
 }
 
-test('Факторіал 10 має бути 3628800', factorial(10), 3628800);
+mafia('Факторіал 10 має бути 3628800', factorial(10), 3628800);
