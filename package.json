@@ -1,0 +1,28 @@
+{
+  "name": "MafiaNо",
+  "version": "1.0.0",
+  "description": "Description of your project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha Unit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gradTV/Guards"
+  },
+  "keywords": [
+    "node",
+    "example",
+    "github"
+  ],
+  "author": "Evgen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0"
+  }
+}
