@@ -1,22 +1,22 @@
 {
-  "name": "MafiaNо",
+  "name": "your-project-name",
   "version": "1.0.0",
   "description": "Description of your project",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "mocha unit.js"
+    "test": "mocha Unit.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/k3fff/Mafia-n"
+    "url": "https://github.com/your-username/your-repository.git"
   },
   "keywords": [
     "node",
     "example",
     "github"
   ],
-  "author": "Evgen",
+  "author": "Your Name",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
