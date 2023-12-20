@@ -4,11 +4,11 @@ const assert = require('assert');
 function mafia(description, actual, expected) {
   try {
     assert.strictEqual(actual, expected);
-    console.log(`<3 Перевірка пройшла успішно: ${description}`);
+    console.log(`<3 Перевірка вірна: ${description}`);
   } catch (error) {
-    console.error(`X Перевірка не пройшла: ${description}`);
-    console.error(`   Очікувалось: ${expected}`);
-    console.error(`   Отримано: ${actual}`);
+    console.error(`X Перевірка не вірна: ${description}`);
+    console.error(`   Очікували: ${expected}`);
+    console.error(`   Отримали: ${actual}`);
   } 
 }
 
